@@ -23,8 +23,10 @@ Crawl the audio content at Vtubers and Streamers on YouTube and Bilibili.
 
 This repositiry includes raw audio data collection and audio-to-text transcription.
 
-1. [**Raw audio data collection (crawler)**](<#Raw-Audio-Data-Collection-(Crawler)>)
-1. [**Audio transcript (FunASR)**](<#Audio-Transcript-(FunASR)>)
+1. [**Raw audio data collection (crawler)**](#raw-data)
+1. [**Audio transcript (FunASR)**](#transcript)
+
+<a name="raw-data"></a>
 
 ### Raw Audio Data Collection (Crawler)
 
@@ -46,6 +48,8 @@ Run `BiliDataCollect.py` and `TubeDataCollect.py` to collect the content from bi
 ![playurl](/README/playurl.gif)
 
 \*\* Possibly due to the anti-crawler features of bilibili.com, the `requests()` function utilized in `BiliDataCollect.py` might not collect all the contents in the playlist. You can try to run the file multiple times to collet all the contents.
+
+<a name="transcript"></a>
 
 ### Audio Transcript (FunASR)
 
