@@ -62,3 +62,11 @@ Audio transcription is developed based on [FunASR](https://github.com/modelscope
 | AUDIO_SAVE_ADDRESS  | Address to saved audio file                                                                       |
 | SCRIPT_SAVE_ADDRESS | Address for saving audio transcripts                                                              |
 | MODEL_DIRECTORY     | Directory to access the ASR models. The directory can be local or from huggingface/modelscope hub |
+
+Run `ScriptRecog.py` to trancript the audio contents to texts.
+**Unfortunately, the model should be loaded and deployed locally for now, so please check and choose the suitable model.**
+
+## Catalog
+
+- [ ] Cloud model deployment support.
+- [ ] Google Colab inference example.
