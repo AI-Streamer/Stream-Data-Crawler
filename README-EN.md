@@ -2,6 +2,8 @@
 
 Crawl the audio content at Vtubers and Streamers on YouTube and Bilibili.
 
+\[EN|[ZH](README-ZH.md)\]
+
 ## Usage
 
 **Please adjust VarMap.py file in the corresponding directory before crawling raw data and generate the script from audio content.**
